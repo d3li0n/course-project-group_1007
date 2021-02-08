@@ -19,9 +19,9 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Team Members
 
+- Conner Gauthier: I enjoying skiing!
 - Person 1: one sentence about you!
 - Dima: A second year CS student who knows cool stuff <3
-- Person 3: one sentence about you!
 
 ## References
 
