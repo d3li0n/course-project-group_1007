@@ -15,7 +15,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Describe your dataset in about 150-200 words
 
-
+Using this data we can examine differneces in traffic accident rates among a variety of differnt conditions both envriomental and atrifical. For example, are accidents more commonplace 
 
 ## Team Members
 
