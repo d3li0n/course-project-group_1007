@@ -15,7 +15,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Describe your dataset in about 150-200 words
 
-Using this data we can examine differneces in traffic accident rates among a variety of differnt conditions both envriomental and atrifical. For example, are accidents more commonplace 
+Using this data, we can examine differences in traffic accident rates among a variety of different conditions both environmental and artificial. For example, are accidents more commonplace during periods of high wind or wet road conditions? Does the time-of-day effect play a role in accident prevalence or severity and is this effected more by light conditions (i.e. daylight vs streetlight vs no light) or alertness of the driver, owing to the time of day? We can also examine things like speed limits or the type of road in assessing driver risk. It may be that higher speed leads to more severe accidents but fewer total accidents as they occur on straighter sections of road (or not!). Overall, the data seems well suited to the creation of visualizations and open to analyzation. By the end of the project, it may be possible for someone to filter the data by number of casualties by highway designation to deduce “The Most Dangerous Road in the UK” or any number of other interesting statistics or anomalies that present themselves.
 
 ## Team Members
 
