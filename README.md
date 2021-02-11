@@ -20,7 +20,7 @@ Using this data, we can examine differences in traffic accident rates among a va
 ## Team Members
 
 - Conner Gauthier: I enjoying skiing!
-- Person 1: one sentence about you!
+- Turner Woodroff: I'm a big fan of basketball.
 - Dima: A second year CS student who knows cool stuff <3
 
 ## References
