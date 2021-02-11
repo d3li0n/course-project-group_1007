@@ -1,6 +1,6 @@
 # **Data**
 
-### This directory contains all the data for the group project, processed and row.
+### This directory contains all the data for the group project, processed and raw.
 <p>&nbsp;</p>
 
 # Links
