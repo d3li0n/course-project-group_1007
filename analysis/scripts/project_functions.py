@@ -26,13 +26,14 @@ def load_and_process(result):
   # Method Chain 2 (Create new columns, drop others, and do processing)
   df2 = (
     df1.drop(['Accident_Index', 'Urban_or_Rural_Area', 'Location_Easting_OSGR', 'Location_Northing_OSGR', 
-              'LSOA_of_Accident_Location', 'Time', '1st_Road_Class', 
-              '1st_Road_Number', 'Speed_limit', 'Special_Conditions_at_Site',
+              'LSOA_of_Accident_Location', '1st_Road_Class', 
+              '1st_Road_Number', 'Special_Conditions_at_Site',
               'Light_Conditions', '2nd_Road_Class', '2nd_Road_Number', 'Junction_Detail', 
-              'Local_Authority_(District)', 'Local_Authority_(Highway)'], axis=1)
+              'Local_Authority_(District)', 'Local_Authority_(Highway)', 'Longitude', 'Latitude'], axis=1)
         .reset_index(drop=True)
         .rename(columns={"Weather_Conditions": "Weather_Type", "Did_Police_Officer_Attend_Scene_of_Accident": "Police_Presense"})
         .replace({'Police_Presense': {'Yes': True, 'No': False}})
+        .replace({'Day_of_Week': {1: 'Monday', 2: 'Tuesday', 3: 'Wednesday', 4: 'Thursday', 5: 'Friday', 6: 'Saturday', 7: 'Sunday'}})
         .convert_dtypes()
         .sort_values("Year", ascending=True)
   )
@@ -43,10 +44,3 @@ def load_and_process(result):
   #print(df2[])
 
   return df2
-
-def year_analysis(df):
-  df1 = (
-        df.groupby(['Year', 'Number_of_Casualties']).size()
-        .to_frame(name = 'Count').reset_index()
-  )
-  return df1
