@@ -28,7 +28,7 @@ def load_and_process(result):
     df1.drop(['Accident_Index', 'Urban_or_Rural_Area', 'Location_Easting_OSGR', 'Location_Northing_OSGR', 
               'LSOA_of_Accident_Location', '1st_Road_Class', 
               '1st_Road_Number', 'Special_Conditions_at_Site',
-              'Light_Conditions', '2nd_Road_Class', '2nd_Road_Number', 'Junction_Detail', 
+              '2nd_Road_Class', '2nd_Road_Number', 'Junction_Detail', 
               'Local_Authority_(District)', 'Local_Authority_(Highway)'], axis=1)
         .reset_index(drop=True)
         .rename(columns={"Weather_Conditions": "Weather_Type", "Did_Police_Officer_Attend_Scene_of_Accident": "Police_Presense"})
